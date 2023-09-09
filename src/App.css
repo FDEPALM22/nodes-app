@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  max-width: 960px; /* Ancho máximo del contenedor */
+  margin: auto; /* Centra el contenedor horizontalmente */
+  margin-top: 20px;
+  padding: 20px; /* Agrega un espacio interno al contenido */
+  background-color: #dbe2e0;
+}
