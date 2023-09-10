@@ -1,0 +1,14 @@
+.luz {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.roja {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}

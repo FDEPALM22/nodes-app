@@ -1,0 +1,47 @@
+.accordion {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion.open {
+    background-color: #f0f0f0;
+}
+
+.accordion-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    user-select: none;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    margin-left: 10px;
+}
+
+.arrow.up {
+    transform: rotate(-180deg);
+}
+
+.accordion-title {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    /* Alinea los elementos en las puntas */
+    align-items: center;
+    /* Alinea verticalmente en el centro */
+    width: 100%;
+    /* Opcional, para que el div se extienda al ancho disponible */
+}
+
+.accordion-content {
+    padding: 10px;
+    background-color: #ccc;
+}
